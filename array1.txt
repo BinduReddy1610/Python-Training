@@ -1,4 +1,4 @@
-x=[2,6,7,1]
+x=[2,6,7,1,9]
 x1=min(x)
 x2=max(x)
 min2=float('inf')
@@ -8,4 +8,4 @@ for i in range(len(x)):
         min2=x[i]
     if x2>x[i]>max2:
         max2=x[i]
-        print(min2,max2)
+print(min2,max2)
